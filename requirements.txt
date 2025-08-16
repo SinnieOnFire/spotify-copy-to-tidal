@@ -1,0 +1,17 @@
+# Spotify to Tidal Playlist Transfer Tool Dependencies
+
+# Core dependencies
+spotipy>=2.22.1
+tidalapi>=0.7.0
+fuzzywuzzy>=0.18.0
+requests>=2.28.0
+
+# Optional but recommended for better performance
+python-Levenshtein>=0.12.2
+
+# Additional dependencies that may be required by tidalapi
+isodate>=0.6.1
+mpegdash>=0.4.0
+
+# Redis is required by spotipy for certain caching features
+redis>=4.0.0
